@@ -7,20 +7,20 @@ The robot considers the number from 1 to 10 that the user must guess and user ha
 <h1>Run<h1/>
      <ol>
         <li>
-            <ol>
+            <ul>
                 <h3>Edit information Client  <code>file : main.py</code></h3>
                 <li>Set api_id</li>
                 <li>Set api_hash</li>
                 <li>Set bot_token</li>
-            </ol>
+            </ul>
         </li>
         <li>
-            <ol>
+            <ul>
                 <h3>install pakages</h3>
                 <li>python -m venv venv</li>
-                <li>source venv/bin/activate <code>forLinux</code></li>
+                <li>source venv/bin/activate</li>
                 <li>pip install -r requirements.txt</li>
                 <li>python main.py</li>
-            </ol>
+            </ul>
         </li>
     </ol> 
