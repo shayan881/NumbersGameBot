@@ -8,7 +8,7 @@ class Gamers:
         value
         )-> None:
 
-        "Add Game"
+        """Add game with user id"""
 
         self.__Gamers[key] = value
     
@@ -17,7 +17,7 @@ class Gamers:
         key
         )-> None:
 
-        "Remove Value With Key"
+        """Remove game with user id"""
 
         del self.__Gamers[key]
 
@@ -26,11 +26,12 @@ class Gamers:
         key
         )-> None:
         
-        "Get Value With Key"
+        """Get game with user id"""
 
         value = self.__Gamers.get(key)
         return value
     
     def __str__(self) -> str:
         return f"{self.__Gamers}"
+    
 _Gamers = Gamers()
