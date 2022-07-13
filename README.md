@@ -10,6 +10,7 @@ The robot considers the number from 1 to 10 that the user must guess and user ha
             <ul>
                 <li>Edit information Client  <code>main.py</code></li>
                 <li>Set api_id</li>
+                <li>Set api_hash</li>
                 <li>Set bot_token</li>
             </ul>
         </li>
